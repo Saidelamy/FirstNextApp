@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
-const posts = () => {
+const Todo = () => {
   const [todo, setTodo] = useState({});
 
   useEffect(async () => {
@@ -15,4 +15,4 @@ const posts = () => {
   return <div>{todo.title}</div>;
 };
 
-export default posts;
+export default Todo;
