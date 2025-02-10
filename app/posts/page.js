@@ -1,7 +1,7 @@
 export default function PostPage() {
   return (
     <>
-      <div>post page</div>
+      <div className="flex justify-center items-center">post page</div>
     </>
   );
 }
