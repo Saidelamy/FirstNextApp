@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function ArticlePage() {
   return (
     <>
-      <div className="flex justify-center items-center">
+      <div className="flex text-9xl flex-col  items-center">
         <div>article page </div>
-        <Link href={`/posts`}>take me home</Link>
+        <Link href={`/FetcherArticles`}>FetcherArticles</Link>
       </div>
     </>
   );
