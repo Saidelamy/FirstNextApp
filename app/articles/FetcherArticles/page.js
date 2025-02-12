@@ -1,7 +1,10 @@
 export default function FetcherArticles() {
   return (
     <>
-      <div>FetcherArticles</div>
+      <div>
+        FetcherArticles
+        lorem30lorem30lorem30lorem30lorem30lorem30lorem30lorem30lorem30lorem30lorem30lorem30lorem30lorem30
+      </div>
     </>
   );
 }
